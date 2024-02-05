@@ -6,10 +6,11 @@ services:
   - redis-server
 
 before_install:
-  - cd TCI-redis
+  - sudo systemctl start redis-server
 
 install:
-  - npm install
+  - cd $TRAVIS_BUILD_DIR
 
 script:
+  - npm install
   - npm test
