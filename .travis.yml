@@ -5,7 +5,10 @@ node_js:
 services:
   - redis-server
 
-before_script:
+before_install:
+  - cd TCI-redis
+
+install:
   - npm install
 
 script:
