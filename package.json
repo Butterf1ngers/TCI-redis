@@ -10,9 +10,9 @@
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    // your dependencies here
-  },
-  "devDependencies": {
-    // your dev dependencies here
-  }
+  "redis": "^3.1.2"
+},
+ "devDependencies": {
+  "jest": "^26.6.3"
+}
 }
