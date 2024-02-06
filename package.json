@@ -4,7 +4,7 @@
   "description": "Your project description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Tests are running successfully!\""
+    "test": "exit 0"
   },
   "keywords": [],
   "author": "Your Name",
